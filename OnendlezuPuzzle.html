@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>パズル</title>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" id="styleCSS">
+	<link rel="stylesheet" href="css/createhidden.css" type="text/css" media="all" id="puzzleCSS">
+	<link rel="stylesheet" href="css/create.css" type="text/css" media="all" id="createCSS">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<script>
+		document.getElementById("createCSS").disabled = false;
+		document.getElementById("puzzleCSS").disabled = true;
+	</script>
+  </head>
+  <body>
+	  <div id="bodii">
+	  <div id="sakusei">
+      <input type="number" id="number1" value="4" max="11" min="2">
+	   <input type="button" value="作成" onclick="makepuzzle()">
+	  </div>
+	  <div id="teiburu">
+	  <table class="sotogawa" border="2" id="puzzle" align="left">
+	  </table>
+	  <table class="nyuuryokubann" border="2" id="nyuuryoku" align="right">
+	  </table>
+	  </div>
+	  <div id="clear">
+		
+	  </div>
+	  <div id="brkaizyo">
+		
+	  </div>
+	  
+	  
+	  <noscript>
+	  数字パズルゲームサイトです。
+	  簡単なパズルから、解くのに数時間かかるパズルまで。
+	  様々な難度のパズルを自動生成出来るサイトです。
+	  あなたの環境が、JavaScriptに対応していないため、パズルを生成する事が出来ません。
+	  </noscript>
+	  <div id = "setumei">指定したサイズのパズルを生成します。
+	  
+	  サイズは2~11で指定してください。</div>
+	  </div>
+	  <script src="js/makepuzzle.js"></script>
+  </body>
+</html>

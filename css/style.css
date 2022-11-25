@@ -1,0 +1,50 @@
+body {
+	color: green;
+	font-size: x-large;
+}
+table{
+	border:5px solid black;
+	border-collapse: collapse;
+	/*width: 60%;*/
+	font-size:1vw;
+	table-layout: fixed;
+	
+	/*width: 1000px;*/
+}
+td{
+	word-wrap: break-word;
+	position: relative;
+	/*padding-bottom: 100%;*/
+	/*height: 0;*/ 
+}
+/*td div { position: absolute }*/
+
+.yokotunage{
+	border-right:1px dotted #ccc;
+	/*tableborder:190px solid #01b6ed;*/
+}
+.tatetunage{
+	border-bottom:1px dotted #ccc;
+	/*tableborder:190px solid #01b6ed;*/
+}
+.yokowake{
+	border-right:5px solid black;
+	/*tableborder:190px solid #01b6ed;*/
+}
+.tatewake{
+	border-bottom:5px solid black;
+	/*tableborder:190px solid #01b6ed;*/
+}
+.fillin{
+	/*color: red;
+	text-align:center;
+	display: table-cell;
+	vertical-align:middle;
+	font-size:5vw;*/
+}
+/*.nowValue{
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: normal;
+}*/
